@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&family=Tourney:ital,wght@0,200;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+:root{
+    background-color: #101010;
+    
+}
+
+.nav{
+    margin-top:20px;
+    margin-left:100px;
+    width:196px;
+    height:35px;
+    color:white;
+    display: inline-block;
+    position:relative;
+}
+.nav > img{
+    width:20px;
+    height:20px;
+    display: inline;
+    margin-right:5px;
+    margin-right:15px;
+}
+.nav >h1{
+    display: inline;
+    width:116px;
+    height:35px;
+
+}
+.nav >div{
+    color:black; 
+    position:absolute;
+    background-color: #CCCCCC;
+    width:34px;
+    height: 16px;
+    border-radius: 4px;
+    top:0;
+    right:0;
+    Padding:2px 6px 2px 6px;    
+}
+
+.body{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.item{
+    font-family: 'Inter', sans-serif;
+    width:713px;
+    height:348px;
+    color:#FFFFFF;
+    ;
+}
+.item > h1{
+   
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.item > p{ 
+   margin-top: 20px; 
+   margin-left: 20px;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 36px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+.itemLower{
+    margin-top: 40px;
+    width: 713px;
+    height:48px;
+
+}
+.itemLower > input{
+    margin-right: 20px;
+    background-color: #101010;
+    width: 535px;
+    height: 48px;
+    padding: 12px 39px 12px 50px;
+    border-radius: 10000px;
+    border: 1px solid white;
+    background: #ffffff url("https://img.icons8.com/plumpy/24/000000/youtube-play.png") no-repeat 13px center;
+}
+.itemLower > button{
+    background-color:#FF2020;
+    width: 158px;
+    height:48px;
+    padding: 18px 24px 18px 24px;
+    border-radius: 35px;
+}
+
+.secondPageNav{
+    display: flex;
+    justify-content: space-between;
+}
+.secondPageNav > button{
+    margin-top: 15px;
+    margin-right:100px;
+    color:white;
+    width:260px;
+    height:44px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: hsl(0, 0%, 6%);
+}
+
+.icon > img{
+    
+    height:20px;
+    width:20px;
+}
+.search-box{
+    display: flex;
+    margin-top:15px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 44px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 40px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+
+}
+.box{
+  
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.resultBody{
+    background-color:#1E1E1E;
+    width:70vw;
+    height:30vh;
+    padding: 20px 40px 20px 40px;
+    border-radius: 16px;
+    margin:46px 143px 47px 145px;
+    color:white;
+
+}
+.image-section{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #707070;
+    width: 172px;
+    height: 32px;
+    border-radius: 4px;
+
+
+}
+.banner-1{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+ .icon-2 > img{
+      height: 24px;
+      width: 25px;
+}
+.first-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-2{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 128px;
+    height: 20px;
+}
+.secondImage{
+    margin:10px auto;
+    width:240px;
+    height:135px;
+    overflow: hidden;
+}
+.secondImage img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.tableData{
+    overflow: hidden;
+}
+.tableData img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+}
+
+.data-point{
+    width:50px;
+    margin-top:10px;
+}
+.box2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:386px;
+   height: 200px;
+   padding: 40px, 20px, 40px, 20px;
+   border-radius: 16px;
+   gap: 10px;
+   background: #282828;
+
+
+}
+.price{
+    width: 173px;
+height: 48px;
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.Button{
+    width: 143px;
+height: 48px;
+padding: 18px, 24px, 18px, 24px;
+border-radius: 35px;
+gap: 10px;
+color: #CCCCCC;
+
+}
+
+.third-column-data > .Button{   
+    background-color:white;
+    width: 95px;
+    height:19px;
+    padding: 18px 24px 18px 24px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+.para{
+    color:white;
+    text-align: center;
+    font-family: Inter;
+}
+
+.table{
+    margin-left:130px;
+    width:1079px;
+    font-family: Inter, 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+}
+.table th{
+    background: #1E1E1E;
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+}
+.table td{
+    color:white;
+    text-align:center;
+}
+
+
+
+/* ModalStyles.css */
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #282828;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    color:white;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #707070;
+    color:white;
+  }
+  
+  .modal-button {
+    background: white;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Stack input elements */
+  .modal-input {
+    display: block;
+  }
+  
+  /* Center the button */
+  .modal-button {
+    display: block;
+    margin: 0 auto;
+    padding:10px;
+    border-radius: 10px;
+  }
+  
+  /* Add spacing between input elements */
+  .modal-input:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .modal-input::placeholder {
+    color: #aaa; /* Adjust the color to your preference */
+  }
+
+  .modalContainer2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #282828;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalContainer2 > button{
+    width:100%;
+    background: #FF0000;
+    padding: 12px, 40px, 12px, 40px;
+    border-radius: 40px; 
+  }
+  
