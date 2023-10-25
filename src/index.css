@@ -208,6 +208,9 @@
 }
 
 .tableData{
+    width:120px;
+    height:68px;
+    border-radius: 10px;
     overflow: hidden;
 }
 .tableData img{
@@ -278,12 +281,14 @@ color: #CCCCCC;
 }
 
 .table{
+    font-size: 10px;
     margin-left:130px;
     width:1079px;
     font-family: Inter, 'Arial Narrow Bold', sans-serif;
     border-collapse: collapse;
 }
 .table th{
+    
     background: #1E1E1E;
     
     padding-top: 12px;
@@ -292,6 +297,7 @@ color: #CCCCCC;
     color: white;
 }
 .table td{
+    
     color:white;
     text-align:center;
 }
